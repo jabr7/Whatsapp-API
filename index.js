@@ -25,6 +25,9 @@ if (fs.existsSync(SESSION_FILE_PATH)) {
     client.initialize();
 
 
+    
+
+
 
     //A normal text respond
     client.on('message', message => {
